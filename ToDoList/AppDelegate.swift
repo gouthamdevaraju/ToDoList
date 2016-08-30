@@ -43,6 +43,138 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
+    
+    //MARK: - Core Data manager
+    func setValuesToEntity(withName:String, withDictionary:NSDictionary) {
+        
+        if withName == "List"{
+            
+            let todoList:List = NSEntityDescription.insertNewObjectForEntityForName("List", inManagedObjectContext: managedObjectContext) as! List
+            
+            todoList.id = withDictionary.valueForKey("id") as? NSNumber
+            todoList.name = withDictionary.valueForKey("name") as? String
+            todoList.state = withDictionary.valueForKey("state") as? NSNumber
+            
+            if managedObjectContext.hasChanges {
+                do {
+                    try managedObjectContext.save()
+                } catch {
+                    // Replace this implementation with code to handle the error appropriately.
+                    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                    let nserror = error as NSError
+                    NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+                    abort()
+                }
+            }
+        }
+    }
+    
+    func getValues(withEntityName:String) -> NSArray {
+        let fetchRequest = NSFetchRequest()
+        fetchRequest.entity = NSEntityDescription.entityForName(withEntityName, inManagedObjectContext: managedObjectContext)
+        let aryValues:NSArray
+        do {
+            aryValues = try managedObjectContext.executeFetchRequest(fetchRequest)
+            return aryValues
+            // success ...
+        } catch let error as NSError {
+            // failure
+            print("Fetch failed: \(error.localizedDescription)")
+            return NSArray()
+        }
+    }
+    
+    func updateValues(withName:String, dictionary:NSDictionary) {
+        let fetchRequest = NSFetchRequest()
+        fetchRequest.entity = NSEntityDescription.entityForName(withName, inManagedObjectContext: managedObjectContext)
+        
+        let predicateItem = NSPredicate(format: "id == %@", dictionary.valueForKey("id") as! NSNumber)
+        
+        fetchRequest.predicate = predicateItem
+        
+        let aryValues:NSArray
+        do {
+            aryValues = try managedObjectContext.executeFetchRequest(fetchRequest)
+            
+            print("Values updating: \(aryValues.count)")
+            
+            let listItem:List = aryValues.objectAtIndex(0) as! List
+            
+            listItem.id = dictionary.valueForKey("id") as? NSNumber
+            listItem.name = dictionary.valueForKey("name") as? String
+            let stateNum = dictionary.valueForKey("state") as? NSNumber
+            listItem.state = stateNum
+            
+            if managedObjectContext.hasChanges {
+                do {
+                    try managedObjectContext.save()
+                } catch {
+                    // Replace this implementation with code to handle the error appropriately.
+                    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                    let nserror = error as NSError
+                    NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+                    abort()
+                }
+            }
+            
+            // success ...
+        } catch let error as NSError {
+            // failure
+            print("Fetch failed: \(error.localizedDescription)")
+            
+        }
+    }
+    
+    func deleteEntity(withEntityName:String) {
+        let fetchRequest = NSFetchRequest()
+        fetchRequest.entity = NSEntityDescription.entityForName(withEntityName, inManagedObjectContext: managedObjectContext)
+        let aryValues:NSArray
+        do {
+            aryValues = try managedObjectContext.executeFetchRequest(fetchRequest)
+            for managedObj in aryValues {
+                managedObjectContext.deleteObject(managedObj as! NSManagedObject)
+            }
+            // success ...
+        } catch let error as NSError {
+            // failure
+            print("Fetch failed: \(error.localizedDescription)")
+            
+        }
+    }
+    
+    func deleteValuesAtEntity(withEntityName:String, andDictionary:NSDictionary) {
+        let fetchRequest = NSFetchRequest()
+        fetchRequest.entity = NSEntityDescription.entityForName(withEntityName, inManagedObjectContext: managedObjectContext)
+        let aryValues:NSArray
+        do {
+            aryValues = try managedObjectContext.executeFetchRequest(fetchRequest)
+            for managedObj in aryValues {
+                
+                let listItem = managedObj as! List
+                if listItem.id == andDictionary.valueForKey("id") as? NSNumber{
+                    managedObjectContext.deleteObject(managedObj as! NSManagedObject)
+                }
+            }
+            
+            if managedObjectContext.hasChanges {
+                do {
+                    try managedObjectContext.save()
+                } catch {
+                    // Replace this implementation with code to handle the error appropriately.
+                    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                    let nserror = error as NSError
+                    NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+                    abort()
+                }
+            }
+            
+            // success ...
+        } catch let error as NSError {
+            // failure
+            print("Fetch failed: \(error.localizedDescription)")
+            
+        }
+    }
 
     // MARK: - Core Data stack
 
@@ -62,7 +194,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // The persistent store coordinator for the application. This implementation creates and returns a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
         // Create the coordinator and store
         let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
-        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
+        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("ToDoList.sqlite")
+        
+        print("Store location: \(url)")
+        
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
             try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
@@ -106,6 +241,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+    
 
 }
 
