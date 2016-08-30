@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015521EA00B1B7C01E33D341F7EDE7F5 /* Pods-ToDoListUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F5BFBA97EE0C5E7831E3AF9E9C5EF /* Pods-ToDoListUITests-dummy.m */; };
+		20B1E00E3EAE756F642840AE96392307 /* Pods-ToDoListTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C998C7537EB5B05BD6C659CFF4CCAA /* Pods-ToDoListTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41C01B3962172DABF99B981D574547BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		461DAE9CB837C7E1EFD2CB76F57E126D /* Pods-ToDoListTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4A383849AEB7130C7140623CBF4958 /* Pods-ToDoListTests-dummy.m */; };
+		4F6D8B900A3FA1981D7DE3C2E45541AE /* Pods-ToDoList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE422AD2F94BBB94CB03376801F02E4C /* Pods-ToDoList-dummy.m */; };
+		611955471FA43CFE024285F61E9CDDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		78A4611EC80AE480A2C03FD18E94D24A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8CDF651B44E4ACE969A92E036A5472C6 /* Pods-ToDoList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F02504CD09FB0EAC91702F082B0591D0 /* Pods-ToDoList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A013456F658929143991BCC9EEC703 /* Pods-ToDoListUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB7FB52D1445B1DF159252A2B27509E /* Pods-ToDoListUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A899BF289D698CEB0A5B7C36541B14C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AA0005A3E9A3A514ADFB34F9E534B043 /* ARSLineProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130BC02653C9D6EF335B04835AD8CD7 /* ARSLineProgress.swift */; };
+		DDD5D3D05708B975ADC9A330585CC346 /* ARSLineProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A508345717232B84B86E9E7A0CEAAA38 /* ARSLineProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E91726B4A50D4E1E45B21BE7DFF7F049 /* ARSLineProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B37196A8C78BDE039ECF82375D3532 /* ARSLineProgress-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2671A4E93F7D53C112B117FE7180B436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7493D8461B38FAFB0814FC48AABCB8;
+			remoteInfo = ARSLineProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15F8EA263CD95F1013CA5357A6D96C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		237A42BDC56EEF3DACE0F8D2E2F052AD /* Pods-ToDoList-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoList-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23B37196A8C78BDE039ECF82375D3532 /* ARSLineProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARSLineProgress-dummy.m"; sourceTree = "<group>"; };
+		2489CABCD47A137B6B9A55E78A9DE2A6 /* Pods-ToDoListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoListTests.release.xcconfig"; sourceTree = "<group>"; };
+		24F7D88E6B720C3DAFAC208967CA6408 /* Pods-ToDoList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ToDoList.modulemap"; sourceTree = "<group>"; };
+		2C71ABBBEA0C7D47E2ADBA7CB3F00015 /* Pods_ToDoListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2F5BFBA97EE0C5E7831E3AF9E9C5EF /* Pods-ToDoListUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoListUITests-dummy.m"; sourceTree = "<group>"; };
+		3F12568217442CF80659AA6F0FF9C128 /* Pods-ToDoListUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoListUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		402F7431B2BEA7E799C5BADC551E49B6 /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
+		40C998C7537EB5B05BD6C659CFF4CCAA /* Pods-ToDoListTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoListTests-umbrella.h"; sourceTree = "<group>"; };
+		44134059550FBD2DFC7B9BDDC121BFB6 /* Pods-ToDoListUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoListUITests-resources.sh"; sourceTree = "<group>"; };
+		44AE72A52A0297F690CB22EB969F1AAE /* Pods-ToDoList-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoList-frameworks.sh"; sourceTree = "<group>"; };
+		4724331B32EECE26C8482D9D79D67137 /* ARSLineProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARSLineProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5130BC02653C9D6EF335B04835AD8CD7 /* ARSLineProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARSLineProgress.swift; path = Source/ARSLineProgress.swift; sourceTree = "<group>"; };
+		5654695371C9FDBDA675D696DA264C23 /* Pods-ToDoListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58DA44DD1F2C3BCEC1596D5255278AA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A4643F4DA35D9A2918C7A9B5470EAF /* Pods-ToDoListTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoListTests-resources.sh"; sourceTree = "<group>"; };
+		727754F73EAE5D6CCDF6FAED3BC92D64 /* Pods-ToDoListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A6863902899DC56D6E687F3B39BEAB6 /* ARSLineProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARSLineProgress.xcconfig; sourceTree = "<group>"; };
+		8A7DEC3E22BA161CF5A8B0CDC42C5187 /* Pods_ToDoListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948564B9E0445FD4F9F347DC8EE9B780 /* Pods-ToDoListUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ToDoListUITests.modulemap"; sourceTree = "<group>"; };
+		9B7224D195E17209D48D139AFC72023D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A508345717232B84B86E9E7A0CEAAA38 /* ARSLineProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARSLineProgress-umbrella.h"; sourceTree = "<group>"; };
+		AF4EC9C09DB53BD68A6778992EF331AE /* Pods-ToDoListUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoListUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B2A505BDFA129832844541326E23CA6B /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4A383849AEB7130C7140623CBF4958 /* Pods-ToDoListTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoListTests-dummy.m"; sourceTree = "<group>"; };
+		BEB7FB52D1445B1DF159252A2B27509E /* Pods-ToDoListUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoListUITests-umbrella.h"; sourceTree = "<group>"; };
+		BFD6C16EA84BED3B0AEAF48F68C38027 /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D12B5038E84D07DE8FE011E934EA5FEE /* ARSLineProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ARSLineProgress.modulemap; sourceTree = "<group>"; };
+		D2C3606A11C7A4C752F920FA6DB251A7 /* Pods-ToDoList-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoList-resources.sh"; sourceTree = "<group>"; };
+		D97D3ED95D7F7B8E2FC3D5EE76C97189 /* ARSLineProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARSLineProgress-prefix.pch"; sourceTree = "<group>"; };
+		DE422AD2F94BBB94CB03376801F02E4C /* Pods-ToDoList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoList-dummy.m"; sourceTree = "<group>"; };
+		E126E37FF9C9A91B425EBBE63FAF95BC /* Pods-ToDoList-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoList-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9F6C62103BBAF1A02EDFDEAAB29DEE6 /* Pods-ToDoListUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoListUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECECB78AFCFBC0B5174092D04B638606 /* Pods-ToDoListTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoListTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F02504CD09FB0EAC91702F082B0591D0 /* Pods-ToDoList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoList-umbrella.h"; sourceTree = "<group>"; };
+		F2510591FA80DD5F8B5982C5BC43B354 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4416A25330B122EB4F70BC9332400E /* Pods-ToDoListTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ToDoListTests.modulemap"; sourceTree = "<group>"; };
+		FB2CCD1ED2315E03FE5F84A10EC91252 /* Pods-ToDoListTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoListTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDA6DFB4D7A662B9B4102740BDDA3375 /* Pods-ToDoListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFC99B0AFECA8568ADD45C54749F61E6 /* Pods-ToDoListTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoListTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C047F0745D37EABB6BCFA797CCDC8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611955471FA43CFE024285F61E9CDDB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E1EFB049CAAB2CF2267D70DDB1445F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A899BF289D698CEB0A5B7C36541B14C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4853E0950ACBA8172C9D1A2654D5B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C01B3962172DABF99B981D574547BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B355C7E104824D810050D9F01423A62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A4611EC80AE480A2C03FD18E94D24A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037CDFF2C7BABA8D7B0B3AB759182E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4724331B32EECE26C8482D9D79D67137 /* ARSLineProgress.framework */,
+				B2A505BDFA129832844541326E23CA6B /* Pods_ToDoList.framework */,
+				8A7DEC3E22BA161CF5A8B0CDC42C5187 /* Pods_ToDoListTests.framework */,
+				2C71ABBBEA0C7D47E2ADBA7CB3F00015 /* Pods_ToDoListUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1087FEEDCC540DB1C702A51A4475BB6D /* Pods-ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				58DA44DD1F2C3BCEC1596D5255278AA0 /* Info.plist */,
+				24F7D88E6B720C3DAFAC208967CA6408 /* Pods-ToDoList.modulemap */,
+				237A42BDC56EEF3DACE0F8D2E2F052AD /* Pods-ToDoList-acknowledgements.markdown */,
+				E126E37FF9C9A91B425EBBE63FAF95BC /* Pods-ToDoList-acknowledgements.plist */,
+				DE422AD2F94BBB94CB03376801F02E4C /* Pods-ToDoList-dummy.m */,
+				44AE72A52A0297F690CB22EB969F1AAE /* Pods-ToDoList-frameworks.sh */,
+				D2C3606A11C7A4C752F920FA6DB251A7 /* Pods-ToDoList-resources.sh */,
+				F02504CD09FB0EAC91702F082B0591D0 /* Pods-ToDoList-umbrella.h */,
+				BFD6C16EA84BED3B0AEAF48F68C38027 /* Pods-ToDoList.debug.xcconfig */,
+				402F7431B2BEA7E799C5BADC551E49B6 /* Pods-ToDoList.release.xcconfig */,
+			);
+			name = "Pods-ToDoList";
+			path = "Target Support Files/Pods-ToDoList";
+			sourceTree = "<group>";
+		};
+		2B8308040F958DFEC5F3F63E7BEFE993 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1087FEEDCC540DB1C702A51A4475BB6D /* Pods-ToDoList */,
+				63328D563110E42351737B18A2DC866A /* Pods-ToDoListTests */,
+				5EFC663BC621F98C51670E772500B56B /* Pods-ToDoListUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		426CC5933095DA16F076563BFEB49752 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5038E84D07DE8FE011E934EA5FEE /* ARSLineProgress.modulemap */,
+				8A6863902899DC56D6E687F3B39BEAB6 /* ARSLineProgress.xcconfig */,
+				23B37196A8C78BDE039ECF82375D3532 /* ARSLineProgress-dummy.m */,
+				D97D3ED95D7F7B8E2FC3D5EE76C97189 /* ARSLineProgress-prefix.pch */,
+				A508345717232B84B86E9E7A0CEAAA38 /* ARSLineProgress-umbrella.h */,
+				F2510591FA80DD5F8B5982C5BC43B354 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ARSLineProgress";
+			sourceTree = "<group>";
+		};
+		5EFC663BC621F98C51670E772500B56B /* Pods-ToDoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B7224D195E17209D48D139AFC72023D /* Info.plist */,
+				948564B9E0445FD4F9F347DC8EE9B780 /* Pods-ToDoListUITests.modulemap */,
+				E9F6C62103BBAF1A02EDFDEAAB29DEE6 /* Pods-ToDoListUITests-acknowledgements.markdown */,
+				3F12568217442CF80659AA6F0FF9C128 /* Pods-ToDoListUITests-acknowledgements.plist */,
+				3A2F5BFBA97EE0C5E7831E3AF9E9C5EF /* Pods-ToDoListUITests-dummy.m */,
+				AF4EC9C09DB53BD68A6778992EF331AE /* Pods-ToDoListUITests-frameworks.sh */,
+				44134059550FBD2DFC7B9BDDC121BFB6 /* Pods-ToDoListUITests-resources.sh */,
+				BEB7FB52D1445B1DF159252A2B27509E /* Pods-ToDoListUITests-umbrella.h */,
+				FDA6DFB4D7A662B9B4102740BDDA3375 /* Pods-ToDoListUITests.debug.xcconfig */,
+				5654695371C9FDBDA675D696DA264C23 /* Pods-ToDoListUITests.release.xcconfig */,
+			);
+			name = "Pods-ToDoListUITests";
+			path = "Target Support Files/Pods-ToDoListUITests";
+			sourceTree = "<group>";
+		};
+		63328D563110E42351737B18A2DC866A /* Pods-ToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				15F8EA263CD95F1013CA5357A6D96C68 /* Info.plist */,
+				FA4416A25330B122EB4F70BC9332400E /* Pods-ToDoListTests.modulemap */,
+				FB2CCD1ED2315E03FE5F84A10EC91252 /* Pods-ToDoListTests-acknowledgements.markdown */,
+				ECECB78AFCFBC0B5174092D04B638606 /* Pods-ToDoListTests-acknowledgements.plist */,
+				BE4A383849AEB7130C7140623CBF4958 /* Pods-ToDoListTests-dummy.m */,
+				FFC99B0AFECA8568ADD45C54749F61E6 /* Pods-ToDoListTests-frameworks.sh */,
+				70A4643F4DA35D9A2918C7A9B5470EAF /* Pods-ToDoListTests-resources.sh */,
+				40C998C7537EB5B05BD6C659CFF4CCAA /* Pods-ToDoListTests-umbrella.h */,
+				727754F73EAE5D6CCDF6FAED3BC92D64 /* Pods-ToDoListTests.debug.xcconfig */,
+				2489CABCD47A137B6B9A55E78A9DE2A6 /* Pods-ToDoListTests.release.xcconfig */,
+			);
+			name = "Pods-ToDoListTests";
+			path = "Target Support Files/Pods-ToDoListTests";
+			sourceTree = "<group>";
+		};
+		68148D609A5514E6573043932DB31F29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D28286DA4BAD8B1F82D07F66DA5218A2 /* ARSLineProgress */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				68148D609A5514E6573043932DB31F29 /* Pods */,
+				037CDFF2C7BABA8D7B0B3AB759182E94 /* Products */,
+				2B8308040F958DFEC5F3F63E7BEFE993 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28286DA4BAD8B1F82D07F66DA5218A2 /* ARSLineProgress */ = {
+			isa = PBXGroup;
+			children = (
+				5130BC02653C9D6EF335B04835AD8CD7 /* ARSLineProgress.swift */,
+				426CC5933095DA16F076563BFEB49752 /* Support Files */,
+			);
+			path = ARSLineProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F7697845C44BA647FB83200D71F03B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B1E00E3EAE756F642840AE96392307 /* Pods-ToDoListTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8CCD2764A26E1A4C37B25144E50A52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A013456F658929143991BCC9EEC703 /* Pods-ToDoListUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD23B5C7840C41856A61F864D109B3DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDF651B44E4ACE969A92E036A5472C6 /* Pods-ToDoList-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A6202B11B09B1B049D3FBA2ADB516A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD5D3D05708B975ADC9A330585CC346 /* ARSLineProgress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3369C5787B5D5EB6E2FF399FEE3435BF /* Pods-ToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DD723202966EE2F488F394C98B955E /* Build configuration list for PBXNativeTarget "Pods-ToDoList" */;
+			buildPhases = (
+				4C5FE4BA8803DBF75DFEC474012CB998 /* Sources */,
+				14E1EFB049CAAB2CF2267D70DDB1445F /* Frameworks */,
+				CD23B5C7840C41856A61F864D109B3DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38C4F7CD86C55445550B6233E6F4B96 /* PBXTargetDependency */,
+			);
+			name = "Pods-ToDoList";
+			productName = "Pods-ToDoList";
+			productReference = B2A505BDFA129832844541326E23CA6B /* Pods_ToDoList.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		529D00CBBFC33D4E48C2AF91CA658267 /* Pods-ToDoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6593A3C7B755FDDEB9377715276D42 /* Build configuration list for PBXNativeTarget "Pods-ToDoListUITests" */;
+			buildPhases = (
+				18BD7AC65F2FEAD37C6FA433E375B6EF /* Sources */,
+				B355C7E104824D810050D9F01423A62F /* Frameworks */,
+				AF8CCD2764A26E1A4C37B25144E50A52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ToDoListUITests";
+			productName = "Pods-ToDoListUITests";
+			productReference = 2C71ABBBEA0C7D47E2ADBA7CB3F00015 /* Pods_ToDoListUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF7493D8461B38FAFB0814FC48AABCB8 /* ARSLineProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8BD5C692F6C5FCC984005B9B48E659 /* Build configuration list for PBXNativeTarget "ARSLineProgress" */;
+			buildPhases = (
+				EB00E6B3C326322037C3B6E23A258031 /* Sources */,
+				0C047F0745D37EABB6BCFA797CCDC8D5 /* Frameworks */,
+				E7A6202B11B09B1B049D3FBA2ADB516A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARSLineProgress;
+			productName = ARSLineProgress;
+			productReference = 4724331B32EECE26C8482D9D79D67137 /* ARSLineProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E104BDFFD3A97684BCA442FA767350D3 /* Pods-ToDoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4927239A420D8EEDC4EF2C2935CDA53 /* Build configuration list for PBXNativeTarget "Pods-ToDoListTests" */;
+			buildPhases = (
+				ED7DAFACDFAF6E8126D95DB0FEB486BB /* Sources */,
+				4B4853E0950ACBA8172C9D1A2654D5B9 /* Frameworks */,
+				3F7697845C44BA647FB83200D71F03B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ToDoListTests";
+			productName = "Pods-ToDoListTests";
+			productReference = 8A7DEC3E22BA161CF5A8B0CDC42C5187 /* Pods_ToDoListTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 037CDFF2C7BABA8D7B0B3AB759182E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7493D8461B38FAFB0814FC48AABCB8 /* ARSLineProgress */,
+				3369C5787B5D5EB6E2FF399FEE3435BF /* Pods-ToDoList */,
+				E104BDFFD3A97684BCA442FA767350D3 /* Pods-ToDoListTests */,
+				529D00CBBFC33D4E48C2AF91CA658267 /* Pods-ToDoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BD7AC65F2FEAD37C6FA433E375B6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015521EA00B1B7C01E33D341F7EDE7F5 /* Pods-ToDoListUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5FE4BA8803DBF75DFEC474012CB998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6D8B900A3FA1981D7DE3C2E45541AE /* Pods-ToDoList-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB00E6B3C326322037C3B6E23A258031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91726B4A50D4E1E45B21BE7DFF7F049 /* ARSLineProgress-dummy.m in Sources */,
+				AA0005A3E9A3A514ADFB34F9E534B043 /* ARSLineProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7DAFACDFAF6E8126D95DB0FEB486BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461DAE9CB837C7E1EFD2CB76F57E126D /* Pods-ToDoListTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38C4F7CD86C55445550B6233E6F4B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARSLineProgress;
+			target = BF7493D8461B38FAFB0814FC48AABCB8 /* ARSLineProgress */;
+			targetProxy = 2671A4E93F7D53C112B117FE7180B436 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		260F89575EC3F9C66227B18FA9995CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5654695371C9FDBDA675D696DA264C23 /* Pods-ToDoListUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoListUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoListUITests/Pods-ToDoListUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoListUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8322F6E42D766787FFE2B6FE07B73071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD6C16EA84BED3B0AEAF48F68C38027 /* Pods-ToDoList.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoList/Pods-ToDoList.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90753AB62089C1189FE236E4FD9DB117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402F7431B2BEA7E799C5BADC551E49B6 /* Pods-ToDoList.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoList/Pods-ToDoList.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B022175B3376B1E721EC230026F65B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6863902899DC56D6E687F3B39BEAB6 /* ARSLineProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ARSLineProgress/ARSLineProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARSLineProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARSLineProgress/ARSLineProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ARSLineProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA63F2F12FA928575E9A2D4B2096D92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727754F73EAE5D6CCDF6FAED3BC92D64 /* Pods-ToDoListTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoListTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoListTests/Pods-ToDoListTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoListTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D93D2E2A8340012F3E9F76D5FE39BEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA6DFB4D7A662B9B4102740BDDA3375 /* Pods-ToDoListUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoListUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoListUITests/Pods-ToDoListUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoListUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E91CB1E2012E90E202FE8314FBF51777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6863902899DC56D6E687F3B39BEAB6 /* ARSLineProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ARSLineProgress/ARSLineProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARSLineProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARSLineProgress/ARSLineProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ARSLineProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9427E4081739164F405AA2C7D0D89D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2489CABCD47A137B6B9A55E78A9DE2A6 /* Pods-ToDoListTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoListTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoListTests/Pods-ToDoListTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ToDoListTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6593A3C7B755FDDEB9377715276D42 /* Build configuration list for PBXNativeTarget "Pods-ToDoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93D2E2A8340012F3E9F76D5FE39BEAF /* Debug */,
+				260F89575EC3F9C66227B18FA9995CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DD723202966EE2F488F394C98B955E /* Build configuration list for PBXNativeTarget "Pods-ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322F6E42D766787FFE2B6FE07B73071 /* Debug */,
+				90753AB62089C1189FE236E4FD9DB117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8BD5C692F6C5FCC984005B9B48E659 /* Build configuration list for PBXNativeTarget "ARSLineProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91CB1E2012E90E202FE8314FBF51777 /* Debug */,
+				B022175B3376B1E721EC230026F65B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4927239A420D8EEDC4EF2C2935CDA53 /* Build configuration list for PBXNativeTarget "Pods-ToDoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA63F2F12FA928575E9A2D4B2096D92E /* Debug */,
+				F9427E4081739164F405AA2C7D0D89D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
